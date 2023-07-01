@@ -9,7 +9,7 @@ import gmpy2
 import paramiko
 import rsa
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 
 class Key:

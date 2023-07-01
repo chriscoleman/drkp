@@ -10,3 +10,6 @@ license = {file = "LICENSE"}
 classifiers = ["License :: OSI Approved :: MIT License"]
 dynamic = ["version", "description"]
 dependencies = ["gmpy2", "paramiko", "rsa"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
